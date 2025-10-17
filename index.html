@@ -75,42 +75,7 @@
       Browser Anda tidak mendukung pemutar video.
     </video>
 
-    <div class="ad-banner" id="adBanner">
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'a36fdd372e41b75d0538361ee9fb914f',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//pawgleamed.com/a36fdd372e41b75d0538361ee9fb914f/invoke.js"></script>
-    </div>
-  </div>
-
-  <script>
-    const video = document.getElementById('myVideo');
-    const adBanner = document.getElementById('adBanner');
-
-    // Tampilkan iklan 5 detik setelah video mulai diputar
-    video.addEventListener('play', () => {
-      setTimeout(() => {
-        adBanner.style.display = 'flex';
-      }, 1000);
-    });
-
-    // Tutup iklan secara manual
-    function closeAd() {
-      adBanner.style.display = 'none';
-    }
-
-    // Opsional: sembunyikan iklan otomatis setelah 10 detik
-    video.addEventListener('play', () => {
-      setTimeout(() => {
-        adBanner.style.display = 'none';
-      }, 1500000000);
-    });
+   
   </script>
 
    <!-- Histats.com  START  (aync)-->
@@ -127,3 +92,4 @@ hs.src = ('//s10.histats.com/js15_as.js');
 <!-- Histats.com  END  -->
 </body>
 </html>
+
